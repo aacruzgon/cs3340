@@ -228,9 +228,6 @@ public class RedBlackTree<T extends Comparable<T>> {
 
     System.out.println("Unique Red-Black Trees Created: " + uniqueTrees.size());
 
-        // Print the number of unique trees
-        System.out.println("Unique Red-Black Trees Created: " + uniqueTrees.size());
-
         // Print the structures
         for (String structure : uniqueTrees) {
             System.out.println(structure);
